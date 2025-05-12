@@ -16,6 +16,8 @@ public class HotelResponse {
     String name;
     String description;
     String address;
+    String ward;
+    String district;
     String phoneNum;
     String email;
     boolean deleted;

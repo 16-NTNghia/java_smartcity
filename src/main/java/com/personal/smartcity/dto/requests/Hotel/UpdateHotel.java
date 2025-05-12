@@ -14,8 +14,10 @@ public class UpdateHotel {
     String name;
     String description;
     String address;
-    @Pattern(regexp = "^[0-9]+$", message = "Phone number must be number.")
+    String ward;
+    String district;
+    @Pattern(regexp = "^[0-9]+$", message = "INVALID_PHONE_NUMBER")
     String phoneNum;
-    @Email(message = "Email is not in correct format.")
+    @Email(message = "INVALID_EMAIL")
     String email;
 }

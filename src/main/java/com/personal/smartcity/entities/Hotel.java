@@ -27,6 +27,10 @@ public class Hotel {
 
     String address;
 
+    String ward;
+
+    String district;
+
     @Column(unique = true)
     String phoneNum;
 
